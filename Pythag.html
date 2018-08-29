@@ -1,0 +1,31 @@
+<html>
+<head>
+
+
+
+</head>
+<body>
+<script>
+
+function pythag() {
+  //get a value
+  var a = prompt("Need 'a' value");
+  //get b value
+  var b = prompt("Need 'b' value");
+  //square a
+  var asq = a ** 2;
+  //square b
+  var bsq = b ** 2;
+  //add the square together
+  var c = asq + bsq;
+  //square root c and save as cRoot and fic decimal place to
+  var cRoot = Math.sqrt(c).toFixed(1);
+  //Tell user the answer
+  window.alert(cRoot);
+  
+}
+
+</script>
+<button onclick="pythag()">Pythag Calc</button>
+</body>
+</html>
